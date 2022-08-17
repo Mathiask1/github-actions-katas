@@ -1,10 +1,10 @@
 name: JAVA CI
 on: push
   branches:
-    - main
+    - 'main'
   pull_request:
     branches:
-      - main
+      - 'main'
 env:
   docker_username: ${{ secrets.DOCKER_USERNAME }}
   docker_password: ${{ secrets.DOCKER_ACCESS_TOKEN }}
